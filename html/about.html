@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký Thông Tin Người Dùng</title>
+      <title>Input Validation Icon</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+    <div class="hero-image">
+        <div class="hero-text">
+            <div class="logo"> <a target="_blank" href="../img/Cong To.png">
+                <img src="../img/Cong To.png" alt="Congto" width=" 70px">
+           </a></div>
+        </div>
+      </div>
+        <p class="slogan">Embrace the journey, cherish the moments</p>
+    </header>
+    <main>
+        <h2>Đăng ký thông tin người dùng</h2>
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <form id="registrationForm" name="contactForm">
+                    <label for="name">Họ và tên:</label>
+                    <input type="text" id="name" name="name1" maxlength="50" placeholder="Vui lòng nhập tên">
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Vui lòng nhập email">
+        
+                    <label for="phone">Phone:</label>
+                    <input type="text" id="phone" name="phone" placeholder="Vui lòng nhập số điện thoại">
+        
+                    <label>Giới tính:</label>
+                    <input type="radio" id="male" name="gender" checked value="Nam" >
+                    <label for="male">Nam</label>
+                    <input type="radio" id="female" name="gender" value="Nữ">
+                    <label for="female">Nữ</label>
+        
+                    <label>Sở thích:</label>
+                    <input type="checkbox" id="sports" name="hobbies" checked  value="Thể thao">
+                    <label for="sports">Thể thao</label>
+                    <input type="checkbox" id="movies" name="hobbies" value="Phim ảnh">
+                    <label for="movies">Phim ảnh</label>
+                    <input type="checkbox" id="reading" name="hobbies" value="Đọc sách">
+                    <label for="reading">Đọc sách</label>
+                    <input type="checkbox" id="music" name="hobbies" value="Âm nhạc">
+                    <label for="music">Âm nhạc</label>
+                    <input type="checkbox" id="others" name="hobbies" value="Khác">
+                    <label for="others">Khác</label>
+            
+                    <label for="bio">Giới thiệu bản thân:</label>
+                    <textarea id="bio" name="bio"></textarea>
+                
+        
+                    <button type="submit">Đăng ký</button>
+                </form>
+            </div>
+            <div class="col-4"></div>
+          </div>
+        
+        <div id="result"></div>
+        <script src="script.js"></script>
+    </main>
+   
+
+    <footer>
+        <p>Thông tin sinh viên: <br>
+            Tô Thành Công <br>
+            Email: chuotsenpai2006@gamil.com <br>
+            Class: T2409M
+        </p>
+    </footer>
+</body>
+
+
+</html>
